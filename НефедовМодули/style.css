@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.allblocks{
+}
+
+.buttons{
+
+}
+
+.ButtonUpFirst{
+    display: flex;
+    background-color: black;
+    border-radius: 10%;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: -15px;
+    flex-direction: column;
+}
+
+.FirstBlockUp{
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+    font-weight: 500;
+}
+
+.FirstBlock{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.FirstBlockText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.headFirst{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.textFirst{
+    font-size: 24px;
+    width: 300px;
+}
+
+.FirstBlockButton{
+    display: flex;
+    margin-top: 25px;
+    background-color: black;
+    border-radius: 10%;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}  
+
+.menu_link{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+
+
+/* Второй блок */
+
+.SecondBlock{
+    margin-top: 200px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+.SecondBlockImg{
+    margin-right: 210px;
+}
+
+.SecondBlockTxt {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.headSecond{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.textSecond{
+    font-size: 24px;
+    width: 350px;
+}
+
+./
+
+.SecondBlock{
+    margin-top: 200px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+.SecondBlockImg{
+    margin-right: 210px;
+}
+
+.SecondBlockTxt {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.headSecond{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.textSecond{
+    font-size: 24px;
+    width: 350px;
+}
