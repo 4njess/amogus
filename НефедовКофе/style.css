@@ -1,7 +1,12 @@
 *{
-    background-color: #fca4a6;
+
     font-family: 'Raleway', sans-serif;
     color: rgb(255, 255, 255);
+}
+
+body{
+
+    background-color: #fca4a6;
 }
 
 .Panel{
@@ -11,28 +16,32 @@
 }
 
 .Header{
-    font-size: 20px;
+
+    font-size: 24px;
     font-weight: 800;
     
 }
 
 .PanelInfo{
+
     display: flex;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
     cursor: pointer;
 }
 
 .ph{
+
     margin-right: 15px;
 }
 
 .Content{
+    height: 100%;
+    width: 100%;
     margin-top: 180px;
     display: flex;
-    align-items: center;
-    justify-content: center
-
+    justify-content: center;
+    margin-left: -250px;
 }
 
 .ContentText{
@@ -40,9 +49,13 @@
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 75px;
+    margin-right: 50px;
 }
 
+
 .ContentHead{
+
     width: 400px;
     font-size: 38px;
     font-weight: 800;
@@ -75,14 +88,51 @@
 }
 
 .Pics{
-    display: flex;
 
 }
 
+
 .Pic1{
+    position: absolute;
+
 
 }
 
 .Pic2{
+    position: absolute;
+
+}
+
+.Pic3{
+    position: absolute;
+
+}
+
+.Pic4{
+    position: absolute;
+
+}
+
+.Pic5{
+    position: absolute;
+
+}
+
+.Pic6{
+    position: absolute;
     
+}
+
+.Group1{
+    transition: 0.5 ease ;
+}
+
+.Group1:hover{
+    transform: translate(350px,0);
+
+    
+}
+
+.Group2{
+
 }
